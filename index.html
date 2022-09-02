@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- DONT TOCUH -->
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img src="./img/logo.png" alt="logo" />
+        </a>
+        <!-- boton abrir menu desplegable mobile -->
+        <button class="open-menu" aria-label="Abrir el menú">
+          <img
+            width="50px"
+            height="50px"
+            src="./img/hamb-menu.png"
+            alt="Abrir menú"
+          />
+        </button>
+        <ul class="menu">
+          <!-- boton cerrar menu desplegable mobile -->
+          <button class="close-menu" aria-label="Cerrar el menú">
+            <img
+              width="50px"
+              height="50px"
+              src="./img/cross-menu.png"
+              alt="Cerrar menú"
+              width=""
+            />
+          </button>
+          <li>
+            <a href="./index.html"
+              ><img src="./img/logo.png" class="logo_menuRespon" alt="logo"
+            /></a>
+          </li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#reserva">Reserva</a></li>
+          <!-- menu carrito-->
+          <!-- <li><i class="fa-solid fa-cart-shopping"></i></li> -->
+        </ul>
+      </nav>
+    </header>
+    <!---------------->
+
+    <div id="home" class="hero"></div>
+
+    <section id="nosotros" class="History">
+      <div class="History_text">
+        <h2>
+          Desde <br />
+          <span class="H_spacing">1968</span>
+        </h2>
+
+        <p>
+          Fue fundada por socios italianos y españoles, una combinación que
+          convirtió a la pizza argentina, en una de las más reconocidas en el
+          mundo entero. Ha pasado el tiempo, pero seguimos respetando el método
+          de elaboración, los ingredientes y la materia prima para continuar
+          siendo la pizzería más tradicional de La Paternal.
+        </p>
+      </div>
+      <div class="hero_keyframe"></div>
+    </section>
+
+    <section id="reserva" class="reservar">
+      <h2>Reserva tu mesa!</h2>
+      <button>Reservar</button>
+    </section>
+
+    <footer>
+      <div>
+        <h2>#Pizza</h2>
+      </div>
+
+      <div class="location">
+        <h2><i class="fa-solid fa-location-pin"></i>Av. Cabildo 2200</h2>
+      </div>
+
+      <div class="redes">
+        <i class="fa-brands fa-github"></i>
+      </div>
+    </footer>
+    <!-- Burguer Menu -->
+    <script src="./js/menu.js"></script>
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/41ca4c84cd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
